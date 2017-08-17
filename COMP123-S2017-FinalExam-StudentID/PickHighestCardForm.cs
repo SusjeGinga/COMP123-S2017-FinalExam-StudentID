@@ -15,7 +15,7 @@ using System.Windows.Forms;
  * ID:          300922977
  * Date:        August 17th 2017
  * Description: This is the PickHighestCardForm
- * Version:     1.0 - Added comments
+ * Version:     1.3 - Try to finish Question 3
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -29,6 +29,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         Deck _deck;
         Hand _hand;
         int _maximumPoints;
+        //private TextBox _scoreboard = ScoreBoard;
 
         // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public List<PictureBox> DealtCardPictureBoxList
@@ -199,6 +200,7 @@ namespace COMP123_S2017_FinalExam_StudentID
             this._enableDealtCards();
             this._hideFinalScore();
             UserMessageTextBox.Text = "Click the Deal Button!";
+            
         }
 
         /// <summary>
