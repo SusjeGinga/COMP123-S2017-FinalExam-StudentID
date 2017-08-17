@@ -9,7 +9,7 @@ using System.Windows.Forms;
  * ID:          300922977
  * Date:        August 17th 2017
  * Description: This is the driver class
- * Version:     1.0 - Added comments
+ * Version:     1.1 - Added SplashForm
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -24,6 +24,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new SplashForm());
             Application.Run(new PickHighestCardForm());
         }
     }
